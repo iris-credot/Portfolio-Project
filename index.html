@@ -6,7 +6,7 @@
   <title>Jane Doe Portfolio</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+ 
   <script>tailwind.config = {darkMode: 'class',}</script>
   <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 
@@ -36,7 +36,7 @@
    
   </ul>
 </nav>
-<div id="menu-overlay" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40 flex items-center justify-center">
+<div id="menu-overlay" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40 grid place-items-center">
     <ul class="bg-white dark:bg-gray-800 rounded-lg p-6 space-y-4 text-center text-lg text-gray-800 dark:text-white shadow-2xl w-3/4 max-w-sm">
         <li>
             <button  id="close-btn" class="text-xl font-bold md:ml-80 ml-60">✕</button>
@@ -97,7 +97,7 @@
     <button  id="toggleButton" class="mt-6 px-1 md:px-4 py-2  bg-black text-white rounded-lg hover:text-xl transition-all duration-300">
         More About Me
     </button>
-    <div id="moreAboutMePage" class=" hidden h-screen fixed top-0 left-0 w-full bg-black/50 bg-opacity-90 flex justify-center items-center z-50 dark:text-black">
+    <div id="moreAboutMePage" class=" hidden h-screen fixed top-0 left-0 w-full bg-black/50 bg-opacity-90  grid place-items-center z-50 dark:text-black">
         <div class="w-full max-w-lg bg-white p-6 rounded-lg shadow-xl text-center relative">
             <button  id="closeButton" class="absolute top-2 right-2 text-black hover:text-2xl text-xl font-bold">
                 ✕
@@ -318,7 +318,7 @@
            
           </ul>
         </nav>
-        <div id="menu-overlayy" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40 flex items-center justify-center">
+        <div id="menu-overlayy" class="hidden fixed inset-0 bg-black/50 backdrop-blur-sm z-40 grid place-items-center">
             <ul class="bg-white dark:bg-gray-800 rounded-lg p-6 space-y-4 text-center text-lg text-gray-800 dark:text-white shadow-2xl w-3/4 max-w-sm">
                 <li>
                     <button  id="close-btnn" class="text-xl font-bold md:ml-80 ml-60">✕</button>
